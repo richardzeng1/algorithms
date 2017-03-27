@@ -9,7 +9,7 @@ This class contains the unit tests for the selection sort algorithm.
 class TestFunction(unittest.TestCase):
 	"""
 	This tests the selection sort algorithm with an empty list.
-	The original list should remain the same.
+	The list should remain the same.
 	"""
 	def test_empty_list(self):
 		list = []
@@ -17,6 +17,8 @@ class TestFunction(unittest.TestCase):
 		self.assertEqual([], list)
 
 	"""
+	This tests the selection sort algorithm with a sorted list.
+	The list should remain the same.
 	"""
 	def test_sorted_list(self):
 		list = [1, 2, 3, 4, 5]
