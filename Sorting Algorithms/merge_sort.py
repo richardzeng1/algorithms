@@ -20,7 +20,7 @@ Traditional merge sort algorithm.
 This function takes in a list and returns sorts the list.
 """
 def merge_sort(list):
-	if len(list) == 1:
+	if len(list) <= 1:
 		return list
 	else:
 		middle = len(list)/2
